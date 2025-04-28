@@ -1,0 +1,8 @@
+{
+  "title": "井字棋",
+  "its_a_draw": "平局！",
+  "restart_game": "重新开始游戏",
+  "made_by": "由 ❤️ 制作 ",
+  "wins": "赢了！",
+  "player_turn": "轮到 {{currentPlayer}} 了！"
+}

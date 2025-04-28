@@ -1,0 +1,8 @@
+{
+  "title": "Morpion",
+  "its_a_draw": "C'est un match nul !",
+  "restart_game": "Recommencer le jeu",
+  "made_by": "Fait avec ❤️ par ",
+  "wins": "a gagné !",
+  "player_turn": "C'est au tour de {{currentPlayer}} !"
+}

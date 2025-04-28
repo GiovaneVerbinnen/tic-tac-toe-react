@@ -1,0 +1,8 @@
+{
+  "title": "Tres en Raya",
+  "its_a_draw": "¡Es un empate!",
+  "restart_game": "Reiniciar juego",
+  "made_by": "Hecho con ❤️ por ",
+  "wins": "¡ganó!",
+  "player_turn": "¡Es el turno de {{currentPlayer}}!"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Jogo da Velha",
+  "its_a_draw": "É um empate!",
+  "restart_game": "Reiniciar jogo",
+  "made_by": "Feito com ❤️ por ",
+  "wins": "venceu!",
+  "player_turn":"É a vez do {{currentPlayer}} jogar!"
+}
