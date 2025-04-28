@@ -7,7 +7,9 @@ import { Trans, useTranslation } from "react-i18next";
 
 export const App = () => {
   const { t, i18n } = useTranslation();
-  const lngs = {
+  const lngs: {
+    [key: string]: { nativeName: string };
+  } = {
     en: { nativeName: "🇺🇸 English" },
     "pt-BR": { nativeName: "🇧🇷 Português(BR)" },
     es: { nativeName: "🇪🇸 Español" },
