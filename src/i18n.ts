@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
-    fallbackLng: "en",
+    fallbackLng: "pt",
     backend: {
       loadPath:
         "https://tic-tac-toe-react-git-main-giovaneverbinnens-projects.vercel.app/locales/{{lng}}/{{ns}}.json",

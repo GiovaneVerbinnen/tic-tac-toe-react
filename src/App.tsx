@@ -11,7 +11,7 @@ export const App = () => {
     [key: string]: { nativeName: string };
   } = {
     en: { nativeName: "🇺🇸 English" },
-    "pt-BR": { nativeName: "🇧🇷 Português(BR)" },
+    pt: { nativeName: "🇧🇷 Português(BR)" },
     es: { nativeName: "🇪🇸 Español" },
     fr: { nativeName: "🇫🇷 Français" },
     ru: { nativeName: "🇷🇺 Pусский" },
