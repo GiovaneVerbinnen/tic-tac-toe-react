@@ -8,22 +8,12 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    // resources: {
-    //   en: {
-    //     translation: {
-    //       title: "Tic Tac Toe",
-    //     },
-    //   },
-    //   pt_BR: {
-    //     translation: {
-    //       title: "Jogo da Velha",
-    //     },
-    //   },
-    // },
-    // lng: "en", // if you're using a language detector, do not define the lng option
     debug: true,
     fallbackLng: "en",
-
+    backend: {
+      loadPath:
+        "https://tic-tac-toe-react-git-main-giovaneverbinnens-projects.vercel.app/locales/{{lng}}/{{ns}}.json",
+    },
     interpolation: {
       escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
     },
